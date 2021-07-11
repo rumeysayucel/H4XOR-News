@@ -13,6 +13,8 @@
 		051228172697A75700A48851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051228162697A75700A48851 /* Preview Assets.xcassets */; };
 		0548D0E826988DE80042EE9E /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548D0E726988DE80042EE9E /* PostData.swift */; };
 		0548D0EB26988F580042EE9E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548D0EA26988F580042EE9E /* NetworkManager.swift */; };
+		0568027B269B2B0C007AA260 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568027A269B2B0C007AA260 /* DetailView.swift */; };
+		0568027E269B3F42007AA260 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568027D269B3F42007AA260 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		051228182697A75700A48851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0548D0E726988DE80042EE9E /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		0548D0EA26988F580042EE9E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0568027A269B2B0C007AA260 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0568027D269B3F42007AA260 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				051228112697A75200A48851 /* ContentView.swift */,
+				0568027A269B2B0C007AA260 /* DetailView.swift */,
+				0568027D269B3F42007AA260 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 				0548D0EB26988F580042EE9E /* NetworkManager.swift in Sources */,
 				051228122697A75200A48851 /* ContentView.swift in Sources */,
 				0548D0E826988DE80042EE9E /* PostData.swift in Sources */,
+				0568027E269B3F42007AA260 /* WebView.swift in Sources */,
+				0568027B269B2B0C007AA260 /* DetailView.swift in Sources */,
 				051228102697A75200A48851 /* H4XOR_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
